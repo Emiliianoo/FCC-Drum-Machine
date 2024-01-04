@@ -1,0 +1,35 @@
+.pads {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.drum-pad {
+  width: 20%;
+  height: 75px;
+  border-radius: 5px;
+  margin: 10px;
+  background-color: #c4c4c4;
+  cursor: pointer;
+  color: black;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border: black solid 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.drum-pad:active {
+  transform: scale(0.95);
+}
+
+.current-note {
+  font-size: 1.5rem;
+}
+
+p, h1{
+  margin: 0;
+}
